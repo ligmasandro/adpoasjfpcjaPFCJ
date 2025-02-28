@@ -2,7 +2,7 @@ body {
   background-image: url(assets/images/pattern-lines.svg);
 
 
-  background: linear-gradient( 135deg, #000014, #16213e, #0f3460);;
+  background-image: linear-gradient( 135deg, hsl(240, 100%, 4%), hsl(273, 91%, 18%), hsl(261, 98%, 41%));;
   align-items: center;
   text-align: center;
   height: 100vh;
@@ -19,7 +19,7 @@ span {
   color: rgb(219, 219, 219);
 }
 .first {
-  border: 2px dashed gray;
+  border: 2px dashed rgb(46, 46, 46);
   height: 140px;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -31,8 +31,12 @@ span {
   border-radius: 10px;
 }
 .mini-div{
-  border: qpx solid gray;
+  border: 1px solid gray;
   background-color: rgb(95, 94, 94);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 .upload-div {
   display: flex;
@@ -65,9 +69,11 @@ input{
   height:40px;
   border: none;
   font-weight: 800;
- 
+}
 
-  
+.upload-div{
+  text-align: start;
+  font-size: 18px;
 }
 
 .top-img{
@@ -90,4 +96,7 @@ input{
 }
 .input-box{
   text-align: start;
+}
+.small-h2{
+  font-size: 17px;
 }
